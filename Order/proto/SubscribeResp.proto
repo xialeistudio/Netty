@@ -1,0 +1,9 @@
+package com.xialeistudio.order;
+option java_package = "com.xialeistudio.order.protobuf";
+option java_outer_classname = "SubscribeRespProto";
+
+message SubScribeResp{
+    required int32 subReqID = 1;
+    required int32 respCode = 2;
+    required string desc = 3;
+}
