@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/FileServer/FileServer.iml" filepath="$PROJECT_DIR$/FileServer/FileServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Netty.iml" filepath="$PROJECT_DIR$/Netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/Order/Order.iml" filepath="$PROJECT_DIR$/Order/Order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PrivacyProtocol/PrivacyProtocol.iml" filepath="$PROJECT_DIR$/PrivacyProtocol/PrivacyProtocol.iml" />
       <module fileurl="file://$PROJECT_DIR$/TimeClient/TimeClient.iml" filepath="$PROJECT_DIR$/TimeClient/TimeClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/TimeServer/TimeServer.iml" filepath="$PROJECT_DIR$/TimeServer/TimeServer.iml" />
     </modules>
