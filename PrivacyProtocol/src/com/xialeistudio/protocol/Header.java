@@ -12,6 +12,15 @@ public class Header {
     private int length;//消息长度
     private long sessionID;//会话长度
     private byte priority;//消息优先级
+    private byte type;//类型
+
+    public byte getType() {
+        return type;
+    }
+
+    public void setType(byte type) {
+        this.type = type;
+    }
 
     private Map<String, Object> attachment = new HashMap<String, Object>();
 
@@ -57,6 +66,6 @@ public class Header {
 
     @Override
     public String toString() {
-        return "Header [crcCode=" + crcCode + ", length=" + length + ", sessionID=" + sessionID + ", priority=" + priority + ", attachment=" + attachment + "]";
+        return "Header [crcCode=" + crcCode + ", length=" + length + ", sessionID=" + sessionID + ", type=" + type + ", priority=" + priority + ", attachment=" + attachment + "]";
     }
 }
