@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e38f3c8-4f8b-4424-8db2-ceb89463e084" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jboss_marshalling_serial_1_3_0_CR9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/LoginAuthReqHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/LoginAuthRespHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/MarshallingCodeCFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/NettyClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/NettyMarshallingDecoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/NettyMarshallingEncoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/NettyMessageDecoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/NettyMessageEncoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/NettyServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrivacyProtocol/PrivacyProtocol.iml" afterPath="$PROJECT_DIR$/PrivacyProtocol/PrivacyProtocol.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/Header.java" afterPath="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/Header.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/MessageType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/LoginAuthReqHandler.java" afterPath="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/LoginAuthReqHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/LoginAuthRespHandler.java" afterPath="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/LoginAuthRespHandler.java" />
     </list>
     <ignored path="Netty.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/LoginAuthReqHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="82" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,11 +42,21 @@
       <file leaf-file-name="LoginAuthRespHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/LoginAuthRespHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37696335">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.83071554">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/MessageType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -203,6 +204,7 @@
         <option value="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/NettyServer.java" />
         <option value="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/NettyMessageDecoder.java" />
         <option value="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/NettyMessageEncoder.java" />
+        <option value="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/MessageType.java" />
         <option value="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/LoginAuthReqHandler.java" />
         <option value="$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/LoginAuthRespHandler.java" />
       </list>
@@ -751,7 +753,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448985314603</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="私有协议开发">
+      <created>1448990651941</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1448990651941</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -794,7 +802,8 @@
     <MESSAGE value="UDP协议开发" />
     <MESSAGE value="标准小文件传输" />
     <MESSAGE value="PrivacyProtocol NetMessage &amp;&amp; Header" />
-    <option name="LAST_COMMIT_MESSAGE" value="PrivacyProtocol NetMessage &amp;&amp; Header" />
+    <MESSAGE value="私有协议开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="私有协议开发" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -857,14 +866,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Order/src/com/xialeistudio/order/SubReqServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Order/src/com/xialeistudio/order/SubReqServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1271,10 +1272,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/MessageType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/LoginAuthReqHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="82" selection-start-line="28" selection-start-column="82" selection-end-line="28" selection-end-column="82" />
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1283,8 +1292,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PrivacyProtocol/src/com/xialeistudio/protocol/LoginAuthRespHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37696335">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.83071554">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

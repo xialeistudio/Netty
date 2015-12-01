@@ -16,7 +16,7 @@ public class LoginAuthReqHandler extends ChannelHandlerAdapter {
     private NettyMessage buildLoginReq() {
         NettyMessage message = new NettyMessage();
         Header header = new Header();
-        header.setType((byte) 1);
+        header.setType(MessageType.LOGIN_REQ);
         message.setHeader(header);
         message.setBoby("It is request");
         return message;
